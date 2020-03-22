@@ -35,6 +35,8 @@ namespace FastTextContainer
       std::vector<Line> Lines;
 
       void ReadLines(std::wistream& stream);
+
+      void Share(const VectorOfWStringTextHolder& other) { Lines.reserve(other.Lines.size()); }
    };
 
    ////////////////////////////////////////////////////////////////////////////
@@ -51,6 +53,8 @@ namespace FastTextContainer
       std::deque<Line> Lines;
 
       void ReadLines(std::wistream& stream);
+
+      void Share(const DequeOfWStringTextHolder& other) { }
    };
 
    ////////////////////////////////////////////////////////////////////////////
@@ -72,6 +76,8 @@ namespace FastTextContainer
       std::vector<Line> Lines;
 
       void ReadLines(std::wistream& stream);
+
+      void Share(const VectorOfSharedBuffersTextHolder& other);
 
    private:
       struct ReadPos

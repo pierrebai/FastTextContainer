@@ -10,6 +10,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FastTextContainerTests", "F
 		{F86FE374-A82A-4D34-99FA-BD707704A8C2} = {F86FE374-A82A-4D34-99FA-BD707704A8C2}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FastTextContainerPerf", "FastTextContainerPerf\FastTextContainerPerf.vcxproj", "{1FFBFFEF-6F42-41D5-96F4-8005F8B57B71}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -34,6 +36,14 @@ Global
 		{F520F7BA-4B82-44FC-B16D-68AD01F9BCAD}.Release|x64.Build.0 = Release|x64
 		{F520F7BA-4B82-44FC-B16D-68AD01F9BCAD}.Release|x86.ActiveCfg = Release|Win32
 		{F520F7BA-4B82-44FC-B16D-68AD01F9BCAD}.Release|x86.Build.0 = Release|Win32
+		{1FFBFFEF-6F42-41D5-96F4-8005F8B57B71}.Debug|x64.ActiveCfg = Debug|x64
+		{1FFBFFEF-6F42-41D5-96F4-8005F8B57B71}.Debug|x64.Build.0 = Debug|x64
+		{1FFBFFEF-6F42-41D5-96F4-8005F8B57B71}.Debug|x86.ActiveCfg = Debug|Win32
+		{1FFBFFEF-6F42-41D5-96F4-8005F8B57B71}.Debug|x86.Build.0 = Debug|Win32
+		{1FFBFFEF-6F42-41D5-96F4-8005F8B57B71}.Release|x64.ActiveCfg = Release|x64
+		{1FFBFFEF-6F42-41D5-96F4-8005F8B57B71}.Release|x64.Build.0 = Release|x64
+		{1FFBFFEF-6F42-41D5-96F4-8005F8B57B71}.Release|x86.ActiveCfg = Release|Win32
+		{1FFBFFEF-6F42-41D5-96F4-8005F8B57B71}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -80,4 +80,10 @@ namespace FastTextContainer
 
       return make_pair(line, readPos.PosInBuffer - line);
    }
+
+   void VectorOfSharedBuffersTextHolder::Share(const VectorOfSharedBuffersTextHolder& other)
+   {
+      Lines.reserve(other.Lines.size());
+      TextBuffers = other.TextBuffers;
+   }
 }
