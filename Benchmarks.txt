@@ -1,0 +1,4 @@
+Select some lines, vector of wstring benchmark:          13.284147s
+Select some lines, deque of wstring benchmark:           17.348362s
+Select some lines, vector of shared buffers benchmark:    1.195670s
+
