@@ -9,3 +9,13 @@ Simple tree, create and destroy deep tree benchmark:     11.5609s
 Faster tree, create and destroy deep tree benchmark:      8.28678s
 Simple tree, create and destroy wide tree benchmark:     13.3752s
 Faster tree, create and destroy wide tree benchmark:     11.9387s
+
+With unique_ptr (unique faster than deque! Still problem with deep tree destruction...):
+
+Select some lines, vector of wstring benchmark:          13.7164s
+Select some lines, deque of wstring benchmark:           17.1821s
+Select some lines, vector of shared buffers benchmark:    1.12547s
+Simple tree, create and destroy deep tree benchmark:      8.8414s
+Faster tree, create and destroy deep tree benchmark:      8.32281s
+Simple tree, create and destroy wide tree benchmark:     11.196s
+Faster tree, create and destroy wide tree benchmark:     11.9801s

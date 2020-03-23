@@ -77,13 +77,14 @@ void CreateDeepTree(int seed)
          auto newNode = tree.CreateNode();
          if (rnd(rnd_engine))
          {
-            current->Left = newNode;
+            current->Left = move(newNode);
+            current = &*current->Left;
          }
          else
          {
-            current->Right = newNode;
+            current->Right = move(newNode);
+            current = &*current->Right;
          }
-         current = &*newNode;
       }
    }
 }

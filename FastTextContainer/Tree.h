@@ -19,13 +19,13 @@ namespace FastTextContainer
    {
       struct Node
       {
-         std::shared_ptr<Node> Left;
-         std::shared_ptr<Node> Right;
+         std::unique_ptr<Node> Left;
+         std::unique_ptr<Node> Right;
       };
 
-      std::shared_ptr<Node> Root;
+      std::unique_ptr<Node> Root;
 
-      std::shared_ptr<Node> CreateNode() { return std::make_shared<Node>(); }
+      std::unique_ptr<Node> CreateNode() { return std::make_unique<Node>(); }
    };
 
    ////////////////////////////////////////////////////////////////////////////
