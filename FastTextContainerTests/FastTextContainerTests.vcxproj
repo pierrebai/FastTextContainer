@@ -161,6 +161,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="FastTextContainerTests.cpp" />
+    <ClCompile Include="TreeTests.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FastTextContainer\FastTextContainer.vcxproj">
