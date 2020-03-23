@@ -161,6 +161,9 @@
   <ItemGroup>
     <ClInclude Include="Benchmark.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Benchmarks.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

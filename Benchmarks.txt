@@ -2,3 +2,10 @@ Select some lines, vector of wstring benchmark:          13.284147s
 Select some lines, deque of wstring benchmark:           17.348362s
 Select some lines, vector of shared buffers benchmark:    1.195670s
 
+Select some lines, vector of wstring benchmark:          13.6352s
+Select some lines, deque of wstring benchmark:           17.2312s
+Select some lines, vector of shared buffers benchmark:    1.17573s
+Simple tree, create and destroy deep tree benchmark:     11.5609s
+Faster tree, create and destroy deep tree benchmark:      8.28678s
+Simple tree, create and destroy wide tree benchmark:     13.3752s
+Faster tree, create and destroy wide tree benchmark:     11.9387s
